@@ -8,6 +8,7 @@
  */
 
 // ─── Environment Check ────────────────────────────────────────────────────────
+//this is main thing in the php we can consider in the 
 $phpVersion   = phpversion();
 $mysqlEnabled = extension_loaded('mysqli') ? 'Enabled ✔' : 'Not Loaded ✘';
 $apacheInfo   = $_SERVER['SERVER_SOFTWARE'] ?? 'Unknown';
